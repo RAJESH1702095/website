@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>All products - Redstore</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/photo3.png" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+               
+            </div>
+        </div>
+
+<!-------------------about us --------------------------->
+<div class="about">
+<h1>ABOUT US</h1>
+<br><br>
+
+<p>If you’re like most owners of e-commerce companies, just thinking about writing your “About Us” page is enough to make your head spin, your knees buckle and cause you to take to your bed for a week – or even two – with a cold compress.
+
+    OK, maybe that’s a bit of an exaggeration, but crafting a powerful pitch and a compelling story ain’t easy.
+    
+    That’s why it’s important to keep in mind that you only have one chance to make a great first impression – one chance to build a relationship with your customer and gain his or her trust.
+    
+    The About Us page of your online store is extremely important and if you use it right, it will help you increase sales. E-commerce shoppers want to know more about
+     who they’re buying from and the only place they’re really going to get that information is on just one web page.</p></div>
+       
+
+<!------------------footer--------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our app</h3>
+                <p>download our app by below apps</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/photo3.png">
+                <p>Grow Your Business With Our Unified Ecommerce Platform.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+          
+        </div>
+        <hr>
+        <p class="copyright">Copyrights-2021</p>
+    </div>
+</div>
+<!----------js for toggle menu---------------->
+
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+
+        }
+        else{
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+</script>
+
+
+
+
+
+    </body>
+</html>
